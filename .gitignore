@@ -161,6 +161,6 @@ cython_debug/
 
 
 dataset.zip
-dataset*
+/dataset*
 /errors*
 /log*

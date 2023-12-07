@@ -1,0 +1,144 @@
+NAME, SEQUENCE, molecular mass kDa, length, net charge, isoelectric point pI, gravy score,  %A, %C, %D, %E, %F, %G, %H, %I, %K, %L, %M, %N, %P, %Q, %R, %S, %T, %V, %W, %Y, "AA", "LA", "AL", "GG", "MC", "CM", "LAA", "AAL", "LLA", "PPA", category of organism [2: eukaryote derived 1: archea derived 0: bacteria derived 4: fake protein],
+
+DATA SOURCING FROM NCBI****************************************:
+Eukaryotes:
+Drosophila melanogaster, 30799
+Saccharomyces cerevisiae, 6017
+Zea mays, 57578
+
+Prokaryotes:
+Archea:
+Methanobrevibacter smithii, 1795
+Methanocorpusculum labreanum Z, 1739
+Nitrososphaera viennensis, 2930
+Ferroglobus placidus DSM, 2480
+
+Bacteria:
+Escherichia coli K12, 4298
+Bacillus subtilis, 4237
+Wolbachia pipientis wMel, 1178
+Sreptococcus pneumoniae, 2027
+Mycoplasma mycoides, 853
+Serratia marcecens, 4857
+Salmonella enterica, 4554
+Pseudomonas aeruginosa, 5572
+Caulobacter vibrioides, 3886
+Aquifex aeolicus, 1741
+Deinococcus radiodurans, 3098
+Chlamydia trachomatis, 894
+Rhodopirellula baltica, 5086
+Chlorobaculum tepidum, 1991
+Herpetosiphon aurantiacus DSM, 5278
+Azotobacter vinelandii, 5051
+
+Fake Proteins:
+Randomized Strings, 25000
+Randomized Strings with Codon Preferences of E.coli, 25000
+Randomized Strings with Codon Preferences of Drosophila, 25000
+Reversed Proteins from Drosophila, e.coli, and b.subtilis, 23,000
+
+NOTES ON REAL PROTEIN DATASET**********************************:
+Top 10 most common 2-amino acid subwords:
+AA: 751770 occurrences
+LL: 690364 occurrences
+SS: 614935 occurrences
+LA: 585940 occurrences
+AL: 568635 occurrences
+LS: 503845 occurrences
+SL: 499632 occurrences
+GG: 459202 occurrences
+AS: 454820 occurrences
+VL: 438377 occurrences
+
+Top 10 most common 3-amino acid subwords:
+AAA: 150641 occurrences
+SSS: 111314 occurrences
+QQQ: 95314 occurrences
+GGG: 82878 occurrences
+LLL: 73362 occurrences
+LAA: 68549 occurrences
+AAL: 66710 occurrences
+LLA: 65836 occurrences
+PPP: 64325 occurrences
+ALA: 63687 occurrences
+
+Top 10 least common 2-amino acid subwords:
+CW: 13205 occurrences
+WC: 13923 occurrences
+WW: 14421 occurrences
+MW: 16320 occurrences
+WM: 20422 occurrences
+HW: 21285 occurrences
+WH: 21321 occurrences
+MC: 21343 occurrences
+CM: 21675 occurrences
+WY: 23125 occurrences
+
+Top 10 least common 3-amino acid subwords:
+CMW: 178 occurrences
+CWW: 206 occurrences
+MCW: 221 occurrences
+WCM: 242 occurrences
+MWC: 246 occurrences
+WWC: 256 occurrences
+WCW: 264 occurrences
+MWW: 285 occurrences
+WCC: 302 occurrences
+CWC: 307 occurrences
+
+NOTES ON FAKE PROTEIN DATASET**********************************:
+Top 10 most common 2-amino acid subwords:
+LL: 403799 occurrences
+LS: 308144 occurrences
+SL: 306973 occurrences
+SS: 300383 occurrences
+GL: 281493 occurrences
+LG: 281395 occurrences
+LV: 276184 occurrences
+VL: 273819 occurrences
+LE: 268821 occurrences
+EL: 267570 occurrences
+
+Top 10 most common 3-amino acid subwords:
+QQQ: 43784 occurrences
+LLL: 40120 occurrences
+SSS: 38122 occurrences
+AAA: 31532 occurrences
+LLS: 28965 occurrences
+SLL: 28578 occurrences
+GGG: 28445 occurrences
+LSL: 27887 occurrences
+GLL: 27354 occurrences
+LGL: 27328 occurrences
+
+Top 10 least common 2-amino acid subwords:
+WW: 38682 occurrences
+WC: 39324 occurrences
+CW: 39504 occurrences
+WM: 43720 occurrences
+CC: 44075 occurrences
+WH: 44187 occurrences
+HW: 44293 occurrences
+MW: 46342 occurrences
+WY: 46744 occurrences
+YW: 46990 occurrences
+
+Top 10 least common 3-amino acid subwords:
+WCW: 1640 occurrences
+CWC: 1710 occurrences
+WWY: 1714 occurrences
+WWW: 1724 occurrences
+CWM: 1731 occurrences
+CWW: 1739 occurrences
+CCW: 1750 occurrences
+WWC: 1759 occurrences
+WCM: 1771 occurrences
+HCW: 1779 occurrences
+
+LIST OF IDEAS FOR POTENTIAL ATTRIBUTES****************************************************************************:
+most common subwords and least common subwords
+length of protein string
+molecular mass of protein
+frequency of amino acids
+Isoelectric
+gravy score - GRAVY (Grand Average of Hydropathy) score is calculated as the sum of the hydropathy values of all the amino acids, divided by the number of residues in the sequence.
